@@ -1,6 +1,6 @@
 {
   "name": "csv-toolkit",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Parse and write CSV files efficiently via an intuitive API",
   "main": "CSVToolkit.js",
   "scripts": {

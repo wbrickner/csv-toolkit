@@ -1,5 +1,5 @@
 //
-//  CSVToolkit v1.0.4
+//  CSVToolkit v2.0.0
 //  Written by Will Brickner with love <3
 //
 //  Documentation is in the README.md, or on NPM: https://npmjs.com/package/csv-toolkit
