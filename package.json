@@ -1,0 +1,18 @@
+{
+  "name": "csv-toolkit",
+  "version": "1.0.3",
+  "description": "Parse and write CSV files efficiently via an intuitive API",
+  "main": "CSVToolkit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSV",
+    "parse",
+    "CSVToolkit",
+    "toolkit",
+    "data"
+  ],
+  "author": "Will Brickner",
+  "license": "ISC"
+}
