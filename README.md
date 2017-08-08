@@ -16,7 +16,7 @@ How would I deal with this in Javascript?  With CSVToolkit, it's simple!
 ```
 var CSVToolkit = require('csv-toolkit');
 
-CSVToolkit.parse('./data.csv', {}, (data) => {
+CSVToolkit.parseFile('./data.csv', {}, (data) => {
 	console.log("Rank of player #0: ", data[0]["Player's Ranking"]);
 });
 ```
