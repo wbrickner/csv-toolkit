@@ -49,8 +49,13 @@ module.exports.parseFile = (path, options, cb) => {
         if (err) {
             return cb(err);
         }
-        let rows = csv.split(options.rowDelimiter || '\n')
-        ,   cols = rows[0].split(options.headerDelimeter || options.fieldDelimiter || ',')
+        
+        if (typeof csv !== "string") 
+        	csv = csv.toString();
+        }
+	    let rows = csv.split(options.rowDelimeter || '\n');
+        
+        let cols = rows[0].split(options.headerDelimeter || options.fieldDelimiter || ',')
         ,   results = new Array(rows.length);
         
         for (var j = 1, _rows = rows.length; j < _rows; ++j) {
