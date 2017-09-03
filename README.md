@@ -156,7 +156,7 @@ Please open a new *issue* on this package's [GitHub Repository](https://github.c
 # License
 This package uses the `ISC License`.  
 
-Please provide credit where it is due, (`Thank you @wbrickner for CSVToolkit`) if this package saved you time, money, or effort.  **I worked hard on it and gave it to you for free**.
+If this package saved you time, money, or effort, please consider adding somewhere `Thanks to Will Brickner for CSVToolkit`.  **I worked hard on it and gave it to you for free <3.**
 
 # DISCLAIMER
 
