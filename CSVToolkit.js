@@ -1,5 +1,5 @@
 //
-//  CSVToolkit v2.0.0
+//  CSVToolkit v2.0.5
 //  Written by Will Brickner with love <3
 //
 //  Documentation is in the README.md, or on NPM: https://npmjs.com/package/csv-toolkit
@@ -50,7 +50,7 @@ module.exports.parseFile = (path, options, cb) => {
             return cb(err);
         }
         
-        if (typeof csv !== "string") 
+        if (typeof csv !== "string") {
         	csv = csv.toString();
         }
 	    let rows = csv.split(options.rowDelimeter || '\n');
