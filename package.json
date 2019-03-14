@@ -1,8 +1,8 @@
 {
   "name": "csv-toolkit",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "Parse and write CSV files efficiently via an intuitive API",
-  "main": "CSVToolkit.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
